@@ -41,6 +41,9 @@ public class Program {
 		seller.setName("Joaozinho");
 		sellerDAO.update(seller);
 		System.out.println("Update completed");
+		
+//		System.out.println("\n--- Teste 6: seller delete ---");
+//		sellerDAO.deleteById(8);
 	} // end main
 
 	
